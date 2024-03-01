@@ -60,7 +60,7 @@ const NavBar = () => {
       </div>
       {/* overlay  */}
       {naveBar ? (
-        <div className="  bg-black/50 h-screen w-full fixed top-0 left-0 "></div>
+        <div onClick={()=>setNaveBar(!naveBar)} className="  bg-black/50 h-screen w-full fixed top-0 left-0 "></div>
       ) : (
         ""
       )}
@@ -77,7 +77,7 @@ const NavBar = () => {
         />
         <h3 className=" lg:text-3xl m-5  ">
           Best
-          <span className="font-bold text-red-600">
+          <span className="font-bold text-orange-500">
             <u>Eats</u>
           </span>
         </h3>
