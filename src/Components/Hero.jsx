@@ -1,4 +1,5 @@
 import React from "react";
+import { Slide, Zoom } from "react-awesome-reveal";
 
 const Hero = () => {
   return (
@@ -6,12 +7,14 @@ const Hero = () => {
       {/* container  */}
       <div className=" max-w-[1640px] w-[100%]  mx-auto relative h-[500px] ">
         <div className=" absolute flex flex-col justify-center h-full max-h-[500px] w-[100%] bg-black/30 pl-10">
-          <h1 className="text-white text-5xl  font-bold">
-            The <span className="text-orange-400">Best</span>
-          </h1>
-          <h1 className="text-white text-5xl  font-bold">
-            Food <span className="text-orange-400">Delivery</span>
-          </h1>
+          <Zoom>
+            <h1 className="text-white text-5xl  font-bold">
+              The <span className="text-orange-400">Best</span>
+            </h1>
+            <h1 className="text-white text-5xl  font-bold">
+              Food <span className="text-orange-400">Delivery</span>
+            </h1>
+          </Zoom>
         </div>
         <img
           className="h-full w-full max-h-[500px] object-cover "

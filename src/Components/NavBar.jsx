@@ -34,7 +34,7 @@ const NavBar = () => {
           <span className=" duration-200 hover:text-red-600">e</span>
           <span className=" duration-200 hover:text-red-600">s</span>
           <span className=" duration-200 hover:text-red-600">t</span>{" "}
-          <span className="font-bold">Eats</span>
+          <span className="font-bold text-orange-400">Eats</span>
         </h1>
       </div>
       {/* middel */}
@@ -60,7 +60,10 @@ const NavBar = () => {
       </div>
       {/* overlay  */}
       {naveBar ? (
-        <div onClick={()=>setNaveBar(!naveBar)} className="  bg-black/50 h-screen w-full fixed top-0 left-0 "></div>
+        <div
+          onClick={() => setNaveBar(!naveBar)}
+          className="  bg-black/50 h-screen w-full fixed top-0 left-0 "
+        ></div>
       ) : (
         ""
       )}
