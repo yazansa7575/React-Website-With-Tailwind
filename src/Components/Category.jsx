@@ -23,7 +23,7 @@ const Category = () => {
                   className="  bg-gray-200 flex justify-evenly p-2 flex-row  items-center rounded-md hover:bg-gray-300 duration-100 cursor-pointer"
                 >
                   <p className=" font-bold md:text-xl">{cat.name}</p>
-                  <img className="w-20" src={cat.image} alt={cat.name} />
+                  <img loading="lazy"  className="w-20" src={cat.image} alt={cat.name} />
                 </div>
               </Fade>
             );

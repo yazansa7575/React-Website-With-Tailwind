@@ -17,6 +17,7 @@ const Cards = () => {
             </button>
           </div>
           <img
+            loading="lazy"
             className=" max-h-[180px] w-full md:max-h-[200px] object-cover "
             src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           />
@@ -37,6 +38,7 @@ const Cards = () => {
             </button>
           </div>
           <img
+            loading="lazy"
             className=" max-h-[180px] w-full md:max-h-[200px] object-cover "
             src="https://images.pexels.com/photos/769969/pexels-photo-769969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           />
@@ -55,6 +57,7 @@ const Cards = () => {
             </button>
           </div>
           <img
+            loading="lazy"
             className=" max-h-[180px] w-full md:max-h-[200px] object-cover "
             src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           />

@@ -108,7 +108,7 @@ const Foods = () => {
               <Fade delay={100} key={index}>
                 <div className=" rounded-md border shadow-lg  ">
                   <div className="overflow-hidden rounded-md">
-                    <img
+                    <img loading="lazy" 
                       className="w-full h-[220px] object-cover hover:scale-[1.1] duration-300 rounded-md"
                       src={food.image}
                       alt={food.name}
